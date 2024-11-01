@@ -1,0 +1,17 @@
+#title, #edit-slug-box, #post-preview, .composer-switch, .page-title-action{
+    display:none;
+}
+.CodeMirror {
+       height: auto !important;   
+}
+.CodeMirror-sizer {
+    min-height: 300px !important;
+}
+div#message:after {
+   content: 'CSS File Updated';
+    padding: 10px;
+    display: block;
+}
+div#message p {
+    display: none;
+}
